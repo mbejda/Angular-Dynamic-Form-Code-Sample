@@ -11,11 +11,13 @@ Demo may be viewed here ([demo](https://synonymous-brain.surge.sh))
 
 
 <hr>
+
+
 ![screenshot](/screenshot.png?raw=true "Dynamic Form Generation")
 
 
-<h3>
+<hr>
 
-**Milos Bejda** <br>
+** Milos Bejda ** <br>
 You may contact on Twitter
 [@nomilobejda](https://twitter.com/notmilobejda)
