@@ -1,0 +1,12 @@
+.mat-brand {
+    background-color: #F08E1D !important;
+    box-shadow: 0 2px 10px -2px rgb(0, 0, 0);
+}
+.brand {
+    color: white;
+    text-decoration: none;
+}
+.brand a {
+    color: white;
+    text-decoration: none;
+}

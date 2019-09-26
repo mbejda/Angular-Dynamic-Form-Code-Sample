@@ -1,0 +1,16 @@
+<div
+        fxLayout="row"
+        fxLayoutAlign="space-between center"
+>
+
+
+  <mat-label fxLayoutAlign="end">{{group.value.text}} <span class="danger" *ngIf="group.value.required === true">*</span></mat-label>
+  <mat-form-field>
+    <input matInput
+           (blur)="onBlur()"
+           [(ngModel)]="value"
+           [disabled]="disabled"
+    >
+    <ng-content></ng-content>
+  </mat-form-field>
+</div>

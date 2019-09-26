@@ -1,0 +1,11 @@
+mat-card-header,
+mat-card-title,
+.mat-card-header-text {
+    margin:0px 0px;
+    padding:0px;
+}
+mat-card.mat-card {
+    margin-top: 2em;
+    border: 1px solid black !important;
+    box-shadow: 0 3px 3px 3px rgb(0, 0, 0, .5) !important;
+}

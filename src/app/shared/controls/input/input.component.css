@@ -1,0 +1,6 @@
+mat-label {
+    font-weight: bold;
+}
+.mat-input-flex.mat-form-field-flex{
+    border: 1px solid black;
+}

@@ -1,0 +1,90 @@
+<mat-card-content >
+    <form [formGroup]="form" (ngSubmit)="submit()">
+
+
+        <mat-card-title>
+            User Information
+        </mat-card-title>
+        <mat-card-subtitle>
+            This is going to be amazing.
+        </mat-card-subtitle>
+
+        <div formArrayName="fields"
+             *ngFor="let field of fields.controls;
+         let i = index;"
+        >
+            <div [formGroupName]="i">
+
+                <custom-input *ngIf="field.value.type === 'input'"
+                              [group]="field"
+                              formControlName="_input">
+
+                    <mat-error *ngIf="!field.get('_input').pristine &&  field.get('_input').hasError('required')">
+                        Required
+                    </mat-error>
+                    <mat-error *ngIf="!field.get('_input').pristine && field.get('_input').hasError('minlength')">
+                        Min {{field.get('min').value }}
+                    </mat-error>
+                    <mat-error *ngIf="!field.get('_input').pristine &&  field.get('_input').hasError('maxlength')">
+                        Max {{field.get('max').value }}
+                    </mat-error>
+                </custom-input>
+
+
+                <custom-select *ngIf="field.value.type === 'select'"
+                        [group]="field" formControlName="_option_id">
+                    <mat-error *ngIf="!field.get('_option_id').pristine &&  field.get('_option_id').hasError('required')">
+                        Required
+                    </mat-error>
+                    <mat-error *ngIf="!field.get('_option_id').pristine &&  field.get('_option_id').hasError('minlength')">
+                        Min {{field.get('min').value }}
+                    </mat-error>
+                    <mat-error *ngIf="!field.get('_option_id').pristine &&  field.get('_option_id').hasError('maxlength')">
+                        Max {{field.get('max').value }}
+                    </mat-error>
+                </custom-select>
+
+
+                <custom-autocomplete *ngIf="field.value.type === 'autocomplete'"
+                               [group]="field" formControlName="_input">
+
+                    <mat-error *ngIf="!field.get('_input').pristine && field.get('_input').hasError('required')">
+                        Required
+                    </mat-error>
+                    <mat-error *ngIf="!field.get('_input').pristine && field.get('_input').hasError('minlength')">
+                        Min {{field.get('min').value }}
+                    </mat-error>
+                    <mat-error *ngIf="!field.get('_input').pristine &&  field.get('_input').hasError('maxlength')">
+                        Max {{field.get('max').value }}
+                    </mat-error>
+                </custom-autocomplete>
+
+
+
+
+            </div>
+        </div>
+
+        <div
+                class="footer"
+                fxLayout="row"
+                fxLayoutAlign="end"
+                fxLayoutGap="1em"
+        >
+
+
+        <a mat-button
+           mat-flat-button
+           class="cancel-btn"
+        >Cancel</a>
+
+
+        <button mat-button
+                mat-flat-button
+                color="primary"
+                [disabled]="!form.valid"
+                class="submit-btn"
+        >Submit</button>
+        </div>
+    </form>
+</mat-card-content>

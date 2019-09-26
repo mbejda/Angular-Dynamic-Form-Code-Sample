@@ -1,0 +1,45 @@
+<div
+        fxLayout="row"
+        fxLayoutAlign="space-between center"
+>
+    <mat-label
+            fxLayoutAlign="end"
+    >{{group.value.text}} <span class="danger" *ngIf="group.value.required === true">*</span></mat-label>
+
+    <mat-form-field>
+
+        <!--- Allow users to have multiple selections --->
+        <mat-select
+                [(ngModel)]="value"
+                [compareWith]="compareWith"
+                [disabled]="disabled"
+                ngDefaultControl
+                disableOptionCentering
+                panelClass="form-select"
+                *ngIf="group.value.multiple === true" multiple
+        >
+            <mat-option
+                    *ngFor="let option of group.value.options"
+                    [value]="option">
+                {{option.text}}
+            </mat-option>
+        </mat-select>
+        <!--- Allow users to have single selection --->
+        <mat-select
+                [(ngModel)]="value"
+                [compareWith]="compareWith"
+                [disabled]="disabled"
+                ngDefaultControl
+                disableOptionCentering
+                panelClass="form-select"
+                *ngIf="!group.value.multiple"
+        >
+            <mat-option
+                    *ngFor="let option of group.value.options"
+                    [value]="option.id">
+                {{option.text}}
+            </mat-option>
+        </mat-select>
+        <ng-content></ng-content>
+    </mat-form-field>
+</div>

@@ -1,0 +1,30 @@
+<div
+        fxLayout="row"
+        fxLayoutAlign="space-between center"
+>
+
+
+  <mat-label fxLayoutAlign="end">{{group.value.text}} <span class="danger" *ngIf="group.value.required === true">*</span></mat-label>
+  <mat-form-field>
+    <input matInput
+           placeholder="Start typing..."
+           (blur)="onBlur()"
+           [(ngModel)]="value"
+           [disabled]="disabled"
+           [matAutocomplete]="auto"
+    >
+    <ng-content></ng-content>
+
+
+    <mat-autocomplete #auto="matAutocomplete">
+
+        <mat-option *ngFor="let option of $options | async" [value]="option.code">
+          <small>
+          <b >{{option.description}}</b>
+          ({{option.code}})
+          </small>
+
+        </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</div>

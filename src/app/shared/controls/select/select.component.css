@@ -1,0 +1,9 @@
+mat-label {
+    font-weight: bold;
+}
+.mat-input-flex.mat-form-field-flex{
+    border: 1px solid black;
+}
+::ng-deep .form-select {
+    margin-top: 2em !important;
+}

@@ -1,0 +1,23 @@
+.mat-error {
+    position: absolute;
+    top:0px;
+    font-size: .5em;
+}
+.mat-card-title {
+    font-size: 2.5em;
+}
+.mat-card-subtitle {
+    font-weight: 600;
+    margin-top:1em;
+}
+.footer {
+    margin-top: 2em;
+}
+button.mat-button {
+    border-radius: 2em;
+}
+button.mat-button.mat-primary:not(:disabled) {
+    border: 1px solid #344f98;
+    background-color: #9AD3F3;
+    color:white;
+}
