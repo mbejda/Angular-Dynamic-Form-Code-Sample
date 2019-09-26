@@ -1,0 +1,19 @@
+GET https://pengwinning.boldpenguin.com/api/naics/search?q=te
+Accept: */*
+Authorization: "#####"
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-09-16T103153.200.json
+
+###
+
+GET https://pengwinning.boldpenguin.com/api/naics/search?q=te
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-09-16T103137.401.json
+
+###
+

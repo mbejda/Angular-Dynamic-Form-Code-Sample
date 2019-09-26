@@ -1,0 +1,202 @@
+[
+  {
+    "code": "212111",
+    "description": "Bituminous Coal and Lignite Surface Mining"
+  },
+  {
+    "code": "212113",
+    "description": "Anthracite Mining"
+  },
+  {
+    "code": "212313",
+    "description": "Crushed and Broken Granite Mining and Quarrying"
+  },
+  {
+    "code": "212391",
+    "description": "Potash, Soda, and Borate Mineral Mining"
+  },
+  {
+    "code": "212392",
+    "description": "Phosphate Rock Mining"
+  },
+  {
+    "code": "221310",
+    "description": "Water Supply and Irrigation Systems"
+  },
+  {
+    "code": "221330",
+    "description": "Steam and Air-Conditioning Supply"
+  },
+  {
+    "code": "237110",
+    "description": "Water and Sewer Line and Related Structures Construction"
+  },
+  {
+    "code": "237120",
+    "description": "Oil and Gas Pipeline and Related Structures Construction"
+  },
+  {
+    "code": "237130",
+    "description": "Power and Communication Line and Related Structures Construction"
+  },
+  {
+    "code": "238110",
+    "description": "Poured Concrete Foundation and Structure Contractors"
+  },
+  {
+    "code": "238120",
+    "description": "Structural Steel and Precast Concrete Contractors"
+  },
+  {
+    "code": "238190",
+    "description": "Other Foundation, Structure, and Building Exterior Contractors"
+  },
+  {
+    "code": "238340",
+    "description": "Tile and Terrazzo Contractors"
+  },
+  {
+    "code": "238910",
+    "description": "Site Preparation Contractors"
+  },
+  {
+    "code": "311340",
+    "description": "Nonchocolate Confectionery Manufacturing"
+  },
+  {
+    "code": "311351",
+    "description": "Chocolate and Confectionery Manufacturing from Cacao Beans"
+  },
+  {
+    "code": "311352",
+    "description": "Confectionery Manufacturing from Purchased Chocolate"
+  },
+  {
+    "code": "311423",
+    "description": "Dried and Dehydrated Food Manufacturing"
+  },
+  {
+    "code": "311512",
+    "description": "Creamery Butter Manufacturing"
+  },
+  {
+    "code": "311514",
+    "description": "Dry, Condensed, and Evaporated Dairy Product Manufacturing"
+  },
+  {
+    "code": "311611",
+    "description": "Animal (except Poultry) Slaughtering"
+  },
+  {
+    "code": "311911",
+    "description": "Roasted Nuts and Peanut Butter Manufacturing"
+  },
+  {
+    "code": "311920",
+    "description": "Coffee and Tea Manufacturing"
+  },
+  {
+    "code": "311930",
+    "description": "Flavoring Syrup and Concentrate Manufacturing"
+  },
+  {
+    "code": "312112",
+    "description": "Bottled Water Manufacturing"
+  },
+  {
+    "code": "313310",
+    "description": "Textile and Fabric Finishing Mills"
+  },
+  {
+    "code": "314910",
+    "description": "Textile Bag and Canvas Mills"
+  },
+  {
+    "code": "314999",
+    "description": "All Other Miscellaneous Textile Product Mills"
+  },
+  {
+    "code": "321219",
+    "description": "Reconstituted Wood Product Manufacturing"
+  },
+  {
+    "code": "321992",
+    "description": "Prefabricated Wood Building Manufacturing"
+  },
+  {
+    "code": "322211",
+    "description": "Corrugated and Solid Fiber Box Manufacturing"
+  },
+  {
+    "code": "322220",
+    "description": "Paper Bag and Coated and Treated Paper Manufacturing"
+  },
+  {
+    "code": "322299",
+    "description": "All Other Converted Paper Product Manufacturing"
+  },
+  {
+    "code": "324122",
+    "description": "Asphalt Shingle and Coating Materials Manufacturing"
+  },
+  {
+    "code": "325194",
+    "description": "Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing"
+  },
+  {
+    "code": "325211",
+    "description": "Plastics Material and Resin Manufacturing"
+  },
+  {
+    "code": "325611",
+    "description": "Soap and Other Detergent Manufacturing"
+  },
+  {
+    "code": "325992",
+    "description": "Photographic Film, Paper, Plate, and Chemical Manufacturing"
+  },
+  {
+    "code": "326112",
+    "description": "Plastics Packaging Film and Sheet (including Laminated) Manufacturing"
+  },
+  {
+    "code": "326113",
+    "description": "Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing"
+  },
+  {
+    "code": "326121",
+    "description": "Unlaminated Plastics Profile Shape Manufacturing"
+  },
+  {
+    "code": "326130",
+    "description": "Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing"
+  },
+  {
+    "code": "327110",
+    "description": "Pottery, Ceramics, and Plumbing Fixture Manufacturing"
+  },
+  {
+    "code": "327120",
+    "description": "Clay Building Material and Refractories Manufacturing"
+  },
+  {
+    "code": "327320",
+    "description": "Ready-Mix Concrete Manufacturing"
+  },
+  {
+    "code": "327331",
+    "description": "Concrete Block and Brick Manufacturing"
+  },
+  {
+    "code": "327332",
+    "description": "Concrete Pipe Manufacturing"
+  },
+  {
+    "code": "327390",
+    "description": "Other Concrete Product Manufacturing"
+  },
+  {
+    "code": "327992",
+    "description": "Ground or Treated Mineral and Earth Manufacturing"
+  }
+]
